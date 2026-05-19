@@ -27,7 +27,7 @@ export class LinkedList {
       list += `( ${currentNode.value} ) -> `;
       currentNode = currentNode.nextNode;
     }
-    return (list += `( ${currentNode.value} ) -> ( null )`);
+    return (list += `( ${currentNode.value} ) ->  null `);
   }
 
   head() {
